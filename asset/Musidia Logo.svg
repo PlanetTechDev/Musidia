@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="367" height="162" viewBox="0 0 367 162">
+  <defs>
+    <clipPath id="clip-Musidia_Logo">
+      <rect width="367" height="162"/>
+    </clipPath>
+  </defs>
+  <g id="Musidia_Logo" data-name="Musidia Logo" clip-path="url(#clip-Musidia_Logo)">
+    <text id="Musidia" transform="translate(110 90)" fill="#fff" font-size="55" font-family="Nexa-Trial-Bold, Nexa-Trial" font-weight="700"><tspan x="0" y="0">Musidia</tspan></text>
+    <path id="Icon_material-library-music" data-name="Icon material-library-music" d="M62.4,3H22.8a6.619,6.619,0,0,0-6.6,6.6V49.2a6.619,6.619,0,0,0,6.6,6.6H62.4A6.619,6.619,0,0,0,69,49.2V9.6A6.619,6.619,0,0,0,62.4,3ZM55.8,19.5H45.9V37.65a8.25,8.25,0,1,1-8.25-8.25,8.076,8.076,0,0,1,4.95,1.683V12.9H55.8ZM9.6,16.2H3V62.4A6.619,6.619,0,0,0,9.6,69H55.8V62.4H9.6Z" transform="translate(41 44.9)" fill="#fff"/>
+    <text id="Find_your_track." data-name="Find your track." transform="translate(112 114)" fill="#fff" font-size="21" font-family="Nexa-Trial-Book, Nexa-Trial"><tspan x="0" y="0">Find your track.</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,284 @@
+
+body {
+    overflow-y: none;
+}
+
+.signup-wrapper {
+    width: 1200px;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.111);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    border-radius: 10px;
+    animation: fade 1.8s;
+
+}
+
+.signup-page1 {
+    width: 600px;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.041);
+    background-image: linear-gradient(rgba(250, 104, 255, 0.133), rgba(204, 115, 255, 0.166));
+    
+    
+}
+
+.lgusu {
+    font-family: nexa;
+    font-size: 1.6em;
+    color: white;
+    text-align: center;
+}
+
+.Signupform {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    width: 400px;
+    height: 45px;
+    font-size: 15px;
+    color: white;
+    outline: none;
+    transition: 300ms ease;
+    animation: slide-left 2s;
+    font-weight: 200;
+
+}
+
+.Signupform:hover {
+    border: none;
+}
+.signup {
+    
+}
+
+
+::placeholder {
+    color: white;
+    opacity: 40%;
+    font-family: poppins;
+}
+
+.signwrap-2 {
+    width: 450px;
+    height:650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.s-line {
+    width: 600px;
+    width: 50px;
+    background-color: white;
+}
+
+.seperator {
+    size: 100px;
+    background-color: rgba(0, 0, 0, 0.11);
+    height: 3px;
+    border: none;
+    animation: slide-left 1s;
+}
+
+.form-btn {
+    width: 300px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.SignupBtn {
+    margin-top: 40px;
+    width: 300px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.11);
+    border: none;
+    color: white;
+    font-family: poppins;
+    border-radius: 50px;
+    transition: 300ms ease;
+}
+
+.SignupBtn:hover {
+    text-shadow: white 1px 2px 10px;
+    box-shadow: rgba(0, 0, 0, 0.199) 1px 2px 70px;
+}
+
+@keyframes fade {
+    from {
+        transform: translateY(200%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes slide-left {
+    from {
+        transform: translateX(-10%);
+        opacity: 0%;
+    }
+    to{
+        transform: translateX(0%);
+        opacity: 100%;
+    }
+    
+}
+
+.su-info-wrapper {
+    width: 600px;
+    height: 700px;
+    background-color: aqua;
+}
+
+.page2 {
+    width: 600px;
+    height: 700px;
+}
+
+.pagewrapper {
+    width: 500px;
+    height: 700px;
+
+}
+
+.perks {
+    font-family: nexa;
+    color: white;
+    width: 360px;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.perks-info {
+    color: rgb(255, 255, 255);
+    opacity: 50%;
+    font-size: 18px;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 300;
+    margin-top: 50px;
+}
+.preperks-info {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    opacity: 95%;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 300;
+    margin-top: 50px;
+    opacity: 50%;
+}
+
+.uil {
+    font-style: normal;
+}
+
+.seperator2 {
+    size: 100px;
+    background-color: rgba(255, 255, 255, 0.21);
+    height: 6px;
+    border-radius: 25px;
+    border: none;
+}
+
+.musidia-premium-perks {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.get-premium {
+    color: white;
+    font-family: nexa;
+    width: 360px;
+    font-size: 1.6em;
+}
+
+.musidia-premium-perks-main {
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: poppins;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 300;
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+.getpre-btn {
+    width: 300px;
+    
+}
+
+.get-pre-rbtn {
+    width: 300px;
+    height: 50px;
+    border: none;
+    background-image: linear-gradient(#FF5FD9, #7958FF);
+    color: white;
+    border-radius: 50px;
+    font-family: poppins;
+    font-weight: 300;
+    transition: 300ms ease;
+    cursor: pointer;
+
+}
+
+.get-pre-rbtn:hover {
+    width: 300px;
+    height: 50px;
+    border: none;
+    background-image: linear-gradient(#FF5FD9, #7958FF);
+    color: white;
+    border-radius: 50px;
+    font-family: poppins;
+    font-weight: 300;
+    transition: 300ms ease;
+    cursor: pointer;
+    text-shadow: white 1px 1px 7px;
+    box-shadow: #FF5FD9 2px 2px 150px;
+
+} 
+
+
+
+.ncr {
+    font-family: poppins;
+    font-weight: 200;
+    font-size: 9px;
+}
+
+.terms {
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    transition: 300ms ease;
+    transform: scaleX(1);
+    text-decoration: none;
+    
+}
+
+.terms:hover {
+   text-decoration: underline;
+}
+
+.home {
+    color: white;
+    text-align: center;
+    font-family: poppins;
+    font-weight: 200;
+    font-size: 0.8em;
+    transition: 300ms ease;
+    opacity: 70%;
+}
+
+.home:hover {
+    opacity: 100%;
+}
+
+.reh-wrap {
+    width: px;
+    text-align: center;
+}
