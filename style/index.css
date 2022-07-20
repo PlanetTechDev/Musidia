@@ -107,4 +107,22 @@ body {
       transform: translateY(0%);
     }
   }
+  @keyframes slide-uppp {
+    from {
+      transform: translateY(1000%);
+    }
+    to {
+      transform: translateY(0%);
+    }
+  }
 
+.signn {
+    color: white;
+    opacity: 40%;
+    font-family: nexa;
+    text-align: center;
+    animation: slide-uppp 6s;
+}
+@media screen {
+    
+}

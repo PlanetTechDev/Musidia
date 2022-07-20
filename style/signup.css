@@ -47,6 +47,7 @@ body {
 
 .Signupform:hover {
     border: none;
+    font-weight: 200;
 }
 .signup {
     
@@ -139,6 +140,8 @@ body {
 .pagewrapper {
     width: 500px;
     height: 700px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -271,7 +274,7 @@ body {
     font-weight: 200;
     font-size: 0.8em;
     transition: 300ms ease;
-    opacity: 70%;
+    opacity: 40%;
 }
 
 .home:hover {
@@ -281,4 +284,8 @@ body {
 .reh-wrap {
     width: px;
     text-align: center;
+}
+
+input {
+    font-weight: 200;
 }
